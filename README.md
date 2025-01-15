@@ -53,8 +53,12 @@ Replace `your_telegram_bot_token`, `your_omdb_api_key`, and `your_tmdb_api_key` 
    ```
 
 ### Example Commands
-- `/movie 550` – Fetches details for the movie with ID 550.
-- `/series 1399 1 1` – Fetches details for the first episode of the first season of the series with ID 1399.
+This bot helps you find information about movies and series. Here are some commands to get you started: 
+ 
+**/movie 550 (for TMDb ID)
+/movie tt0111161 (for IMDb ID)
+/series 1399 1 1 (for TMDb ID, season 1, episode 1)
+/series tt0944947 1 1 (for IMDb ID, season 1, episode 1)**
 
 ---
 
