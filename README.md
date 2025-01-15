@@ -73,9 +73,9 @@ Replace `your_telegram_bot_token`, `your_omdb_api_key`, and `your_tmdb_api_key` 
 ---
 
 ## License
-GNU License
+GNU GENERAL PUBLIC LICENSE
 
 ---
 
-For any issues or contributions, feel free to open an issue on the repository or contact the developer!
+For any issues or contributions, feel free to open an issue on the repository or contact the developer (Me)!
 
