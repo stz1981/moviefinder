@@ -12,16 +12,9 @@ This Python-based Telegram bot allows users to quickly find information about mo
 ---
 
 ## Requirements
-- `python-telegram-bot`
-- `requests`
-- `python-dotenv`
-
-Ensure you have these dependencies listed in your `requirements.txt`:
-```plaintext
-python-telegram-bot==20.3
-requests
-python-dotenv
-```
+- `python-telegram-bot==21.10`
+- `requests==2.32.3`
+- `python-dotenv==1.0.1`
 
 ---
 
