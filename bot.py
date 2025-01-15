@@ -88,10 +88,10 @@ async def movie_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     ]
 
     details = (
-        f"?? *{movie_info.get('Title', movie_info.get('original_title', 'Unknown Title'))}*\n"
-        f"?? *Plot:* {movie_info.get('Plot', movie_info.get('overview', 'No plot available.'))}\n"
-        f"?? *Release Date:* {movie_info.get('Released', movie_info.get('release_date', 'N/A'))}\n"
-        f"? *Rating:* {movie_info.get('imdbRating', movie_info.get('vote_average', 'N/A'))}\n"
+        f"🎬 *{movie_info.get('Title', movie_info.get('original_title', 'Unknown Title'))}*\n"
+        f"📝 *Plot:* {movie_info.get('Plot', movie_info.get('overview', 'No plot available.'))}\n"
+        f"📅 *Release Date:* {movie_info.get('Released', movie_info.get('release_date', 'N/A'))}\n"
+        f"⭐ *Rating:* {movie_info.get('imdbRating', movie_info.get('vote_average', 'N/A'))}\n"
     )
 
     buttons = [
@@ -122,7 +122,7 @@ async def series_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     ]
 
     details = (
-        f"🎬 *{series_info.get('Title', series_info.get('name', 'Unknown Title'))}*\n"
+        f"📺 *{series_info.get('Title', series_info.get('name', 'Unknown Title'))}*\n"
         f"📝 *Plot:* {series_info.get('Plot', series_info.get('overview', 'No plot available.'))}\n"
         f"📅 *First Air Date:* {series_info.get('Released', series_info.get('first_air_date', 'N/A'))}\n"
         f"⭐ *Rating:* {series_info.get('imdbRating', series_info.get('vote_average', 'N/A'))}\n"
