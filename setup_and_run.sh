@@ -20,6 +20,12 @@ crontab /etc/cron.d/container-cron
 # Create the log file to be able to run tail
 touch /var/log/cron.log
 
-# Start cron and the bot script
+# Start cron
 cron
+# Optional: Add any other cron jobs you need, such as database backups or log rotation
+# Example: Clean up unused packages every week
+echo "0 1 * * 0 apt-get update && apt-get upgrade -y" | crontab -
+echo "0 3 * * 0 apt-get autoremove -y && apt-get clean" | crontab -
+
+# Start the bot script
 python ./bot.py
